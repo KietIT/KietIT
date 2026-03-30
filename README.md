@@ -140,6 +140,4 @@ I specialize in **AI integration for operational workflows** — contract manage
 If your company needs a custom AI or full-stack solution, I can take you from problem → architecture → production with a clear delivery roadmap.
 
 📩 **Email:** trinhkiet2005@gmail.com  
-💼 **LinkedIn:** [https://www.linkedin.com/in/YOUR_SLUG_HERE](https://www.linkedin.com/in/trinh-vy-kiet-4451213ba/)
-
-> ⚠️ *Remember to replace `YOUR_SLUG_HERE` with your actual LinkedIn profile slug before publishing.*
+💼 **LinkedIn:** [https://www.linkedin.com/in/trinh-vy-kiet-4451213ba/]
