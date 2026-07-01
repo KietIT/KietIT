@@ -1,53 +1,56 @@
 <h1 align="center">Hi, I'm Kiet 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=800&color=00C2FF&center=true&vCenter=true&width=900&lines=Full-stack+%26+AI+Engineer+%E2%80%94+Building+AI-powered+products+for+real+business+problems;From+contract+extraction+pipelines+to+smart+city+traffic+platforms;Research+%E2%86%92+Design+%E2%86%92+Ship+%E2%86%92+Scale" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2800&pause=800&color=00C2FF&center=true&vCenter=true&width=900&lines=AI+Engineer+%26+Solution+Architect+%E2%80%94+Building+AI-native+products+across+EdTech%2C+FinTech+%26+Security;From+coding+fluency+assessment+to+financial+AI+coaches+to+biometric+security+research;Research+%E2%86%92+Design+%E2%86%92+Ship+%E2%86%92+Scale" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="mailto:trinhkiet2005@gmail.com"><img src="https://img.shields.io/badge/Email-trinhkiet2005%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/YOUR_SLUG_HERE"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/trinh-vy-kiet-4451213ba/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Open%20to-Freelance%20%26%20Full--time-2ECC71?style=for-the-badge"/>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm a **Full-stack & AI engineer** based in Vietnam, focused on turning real business problems into production-grade software.
+I'm an **AI Engineer & Solution Architect** at **Gaussora Intelligence** (Ho Chi Minh City), and a Computer Science student at FPT University.
 
-- 🔍 I research market gaps and identify high-ROI automation opportunities
-- 🤖 I build AI-enabled systems: LLM pipelines, RAG architectures, agent workflows
-- 🏗️ I deliver end-to-end solutions — from schema design to deployed UI
-- 🚀 I ship MVPs fast, then harden them toward production
+- 🏗️ I design end-to-end AI systems — from LLM pipeline architecture to production backend infrastructure
+- 🤖 I build with LLMs across real use cases: RAG, agentic workflows, behavioral/fluency assessment, financial advisory
+- 🔧 Currently deepening backend + solution architecture skills — TypeScript, distributed system design, scalable service patterns
+- 🌐 Cross-domain shipped work: EdTech (AI assessment), FinTech (AI financial coaching), biometric security (anti-spoofing research)
 
-> Currently building an **AI-powered contract management platform** for petrochemical turnaround projects — see below.
+> Currently building **CodeProve** (AI coding fluency assessment) and **Flux AI** (financial coaching assistant for Shinhan Bank's SOL app, Shinhan Innoboost 2026).
 
 ---
 
 ## 🔨 Currently Building
 
-### TAR Contract Management Platform
-> *Hackathon → production-ready MVP · 2026 Q1 · Solo*
+### 🎓 CodeProve
+> *AI Coding Fluency Assessment Platform · Gaussora Intelligence · Active development*
 
-An AI-powered contract intelligence system for high-stakes petrochemical turnaround (TAR) projects.
+As AI coding assistants become ubiquitous, evaluating *how* someone codes with AI — not just the final output — is still an unsolved measurement problem for universities and employers.
 
-**The problem:** Engineering contracts run 50–200 pages each. Procurement teams manually review milestones, penalties, and payment triggers — taking 2–4 hours per contract, with high risk of missed obligations.
+**What I'm building:**
+- 🧭 **6D Fluency Framework** — scores prompting quality, verification behavior, debugging strategy, hypothesis formation, and more, instead of judging code output alone
+- 🧠 **Assessment engine** powered by Claude Sonnet via OpenRouter
+- 🎨 **Dark-themed UI system** (Linear/Notion-inspired) with a custom Three.js landing page — 80-node interactive network graph + live radar chart visualizing fluency dimensions
+- 🏫 **Dual go-to-market**: B2B institutional licensing (universities, bootcamps) + B2C freemium for individual developers
 
-**What I built:**
-- 📄 **AI Extraction Pipeline** — Upload PDF/DOCX → Claude Sonnet extracts structured milestones, obligations, penalties, and payment triggers with confidence scoring. Items below 0.9 confidence are auto-flagged for human review, with exact source clause as evidence.
-- 🔍 **Contract Diff Engine** — Word-level comparison with side-by-side PDF text-layer highlighting (additions / deletions / modifications) and synced scrolling.
-- ✅ **Approval Workflow + SLA** — Role-based routing (TAR Manager → PMO → Contract Manager), 24h countdown timers, auto-escalation via background worker.
-- 📊 **RAG Health Dashboard** — Red/Amber/Green status per contract based on cost burn rate and milestone risk (overdue or due ≤ 3 days).
-- 🔒 **Multi-org Isolation** — Row-Level Security in PostgreSQL + middleware ensures each party only sees their relevant data.
+**Stack:** Claude Sonnet (OpenRouter) · Three.js · React · TypeScript
 
-**Impact:**
-| Metric | Before | After |
-|---|---|---|
-| Contract review time | 2–4 hours/contract | ~2–3 minutes (~95% reduction) |
-| Missed deadline detection | Manual, reactive | Auto-alerts 3 days before deadline |
-| Audit trail | Partial | 100% logged (timestamp + actor) |
+### 💰 Flux AI — Shinhan Innoboost 2026
+> *AI Personal Financial Coach for Gen Z · Gaussora Intelligence · 12-week PoC*
 
-**Stack:** Next.js 14 · Fastify 5 · PostgreSQL 16 · Prisma · BullMQ + Redis · Claude Sonnet (Anthropic) · Clerk (RBAC) · AWS S3 · Turborepo · Docker
+Built for Shinhan Bank's SOL app. My role: Solution Architect / AI Engineer.
+
+- 🔐 **Fully on-premise** — local Qwen inference, on-premise AnalyticDB, zero external API calls (a hard constraint from the bank's data policy)
+- 🧩 **Four engines**: Customer Classification · FAQ Handler (RAG) · Product Recommendation · Savings Nudge
+- 🎯 **Target KPIs**: ≥20% recommendation CTR · ≥70% FAQ self-service resolution · ≥85% classification accuracy · ≥5% savings-action rate
+- 📅 PoC runs Jun–Sep 2026, evaluated on 500–1,000 synthetic profiles (no real customer data)
+
+**Stack:** Qwen (on-prem, DashScope) · AnalyticDB · RAG · Node.js/TypeScript
 
 ---
 
@@ -56,28 +59,37 @@ An AI-powered contract intelligence system for high-stakes petrochemical turnaro
 <table>
   <tr>
     <td width="50%">
+      <h3>📄 TAR Contract Management Platform</h3>
+      <p>AI-powered contract intelligence for petrochemical turnaround (TAR) projects. Claude-based extraction of milestones/penalties with confidence scoring, contract diff engine, SLA-based approval workflow, and RAG health dashboard. Cut contract review time from 2–4 hours to ~2–3 minutes.</p>
+      <p><strong>Stack:</strong> Next.js 14 · Fastify 5 · PostgreSQL · Prisma · BullMQ · Claude Sonnet</p>
+    </td>
+    <td width="50%">
+      <h3>🔐 Privacy-Preserving Face Anti-Spoofing</h3>
+      <p>Split-computing biometric security pipeline (with FPT University peers): compresses camera-to-server payload by <strong>2,352×</strong>, down to just 512 bits, while preserving spoof-detection accuracy across cross-dataset benchmarks.</p>
+      <p><strong>Focus:</strong> Bandwidth-efficient split-computing, quantized bottleneck representation</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3>🤖 Nova AI</h3>
-      <p>Python-first AI automation platform with modular LLM pipeline design — input normalization → context assembly → model execution → structured output. Built for reliability: retry logic, timeout handling, fallback strategies, and schema-validated outputs.</p>
-      <p><strong>Stack:</strong> Python · LLM orchestration · Modular pipeline architecture</p>
+      <p>Python-first AI automation platform with modular LLM pipeline design — input normalization → context assembly → model execution → structured output. Built for reliability: retry logic, timeout handling, fallback strategies, schema-validated outputs.</p>
       <a href="https://github.com/KietIT/nova-ai">🔗 View Repository</a>
     </td>
     <td width="50%">
       <h3>🚦 Techno-Traffix Platform</h3>
-      <p>Smart traffic management platform combining Python data pipelines with a web dashboard for real-time monitoring and analytics. Enables incident-aware decision support and scalable experimentation for urban traffic operations.</p>
-      <p><strong>Stack:</strong> Python (47%) · JavaScript/HTML/CSS (44%) · Jupyter Notebook · C++</p>
+      <p>Smart traffic management platform combining Python data pipelines with a web dashboard for real-time monitoring and analytics. Incident-aware decision support for urban traffic operations.</p>
       <a href="https://github.com/KietIT/Techno-Traffix-Platform">🔗 View Repository</a>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <h3>🎓 Edu-Tech OJT Platform</h3>
-      <p>Python-based education workflow backend with clean service layer architecture. Designed for maintainability and extensibility — structured to support AI-assisted academic features in future phases.</p>
-      <p><strong>Stack:</strong> Python · Modular service architecture</p>
+      <p>Python-based education workflow backend with clean service layer architecture, designed for maintainability and future AI-assisted academic features.</p>
       <a href="https://github.com/KietIT/Edu-Tech-OJT">🔗 View Repository</a>
     </td>
     <td width="50%">
       <h3>🎯 Automated Attendance (Face Recognition)</h3>
-      <p>Computer vision system for automated attendance tracking using facial recognition. End-to-end pipeline from camera feed to attendance record.</p>
+      <p>Computer vision system for automated attendance tracking. End-to-end pipeline from camera feed to attendance record.</p>
       <a href="https://github.com/KietIT/-Automated-Attendance-System-with-Face-Recognition">🔗 View Repository</a>
     </td>
   </tr>
@@ -89,18 +101,21 @@ An AI-powered contract intelligence system for high-stakes petrochemical turnaro
 
 **AI / LLM**
 ![Anthropic](https://img.shields.io/badge/Anthropic_Claude-LLM_Pipelines-8A2BE2?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-Vector_Search-6A0DAD?style=flat-square)
+![Qwen](https://img.shields.io/badge/Qwen-On--Prem_Inference-FF6A00?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-Hybrid_Retrieval_(BM25%2BDense)-6A0DAD?style=flat-square)
 ![AI Agents](https://img.shields.io/badge/Agent_Workflows-Orchestration-5B2C6F?style=flat-square)
 
 **Frontend**
 ![Next.js](https://img.shields.io/badge/Next.js_14-App_Router-000000?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-TypeScript-61DAFB?style=flat-square&logo=react&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-shadcn%2Fui-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-3D_%2F_Data_Viz-000000?style=flat-square&logo=three.js)
 
 **Backend**
 ![Python](https://img.shields.io/badge/Python-FastAPI_%2F_Service_Arch-3776AB?style=flat-square&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-Fastify-339933?style=flat-square&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-TypeScript_%2F_Fastify-339933?style=flat-square&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Prisma_ORM-336791?style=flat-square&logo=postgresql&logoColor=white)
+![AnalyticDB](https://img.shields.io/badge/AnalyticDB-On--Prem-00A1EA?style=flat-square)
 
 **Infrastructure**
 ![Redis](https://img.shields.io/badge/Redis-BullMQ-DC382D?style=flat-square&logo=redis&logoColor=white)
@@ -131,13 +146,15 @@ An AI-powered contract intelligence system for high-stakes petrochemical turnaro
 | **MVP Sprint** | 4–6 weeks | Deployed MVP with real users |
 | **Custom Enterprise Build** | 8+ weeks | Tailored AI/full-stack system, production-ready |
 
-I specialize in **AI integration for operational workflows** — contract management, document processing, workflow automation, and decision-support dashboards.
+I specialize in **AI integration for operational workflows** — assessment platforms, financial advisory systems, contract/document intelligence, and decision-support dashboards.
+
+🎯 Currently open to both **freelance/enterprise AI-backend projects** and **full-time Solution Architect / AI Engineer roles**.
 
 ---
 
 ## 📣 Let's Work Together
 
-If your company needs a custom AI or full-stack solution, I can take you from problem → architecture → production with a clear delivery roadmap.
+Whether you need a custom AI/full-stack solution or you're hiring — I can take you from problem → architecture → production with a clear delivery roadmap.
 
 📩 **Email:** trinhkiet2005@gmail.com  
 💼 **LinkedIn:** https://www.linkedin.com/in/trinh-vy-kiet-4451213ba/
