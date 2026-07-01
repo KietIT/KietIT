@@ -16,9 +16,9 @@
 
 I'm an **AI Engineer & Solution Architect** at **Gaussora Intelligence** (Ho Chi Minh City), and a Computer Science student at FPT University.
 
-- 🏗️ I design end-to-end AI systems — from LLM pipeline architecture to production backend infrastructure
+- 🏗️ I design end-to-end AI systems - from LLM pipeline architecture to production backend infrastructure
 - 🤖 I build with LLMs across real use cases: RAG, agentic workflows, behavioral/fluency assessment, financial advisory
-- 🔧 Currently deepening backend + solution architecture skills — TypeScript, distributed system design, scalable service patterns
+- 🔧 Currently deepening backend + solution architecture skills - TypeScript, distributed system design, scalable service patterns
 - 🌐 Cross-domain shipped work: EdTech (AI assessment), FinTech (AI financial coaching), biometric security (anti-spoofing research)
 
 > Currently building **CodeProve** (AI coding fluency assessment) and **Flux AI** (financial coaching assistant for Shinhan Bank's SOL app, Shinhan Innoboost 2026).
@@ -30,22 +30,22 @@ I'm an **AI Engineer & Solution Architect** at **Gaussora Intelligence** (Ho Chi
 ### 🎓 CodeProve
 > *AI Coding Fluency Assessment Platform · Gaussora Intelligence · Active development*
 
-As AI coding assistants become ubiquitous, evaluating *how* someone codes with AI — not just the final output — is still an unsolved measurement problem for universities and employers.
+As AI coding assistants become ubiquitous, evaluating *how* someone codes with AI - not just the final output - is still an unsolved measurement problem for universities and employers.
 
 **What I'm building:**
-- 🧭 **6D Fluency Framework** — scores prompting quality, verification behavior, debugging strategy, hypothesis formation, and more, instead of judging code output alone
+- 🧭 **6D Fluency Framework** - scores prompting quality, verification behavior, debugging strategy, hypothesis formation, and more, instead of judging code output alone
 - 🧠 **Assessment engine** powered by Claude Sonnet via OpenRouter
-- 🎨 **Dark-themed UI system** (Linear/Notion-inspired) with a custom Three.js landing page — 80-node interactive network graph + live radar chart visualizing fluency dimensions
+- 🎨 **Dark-themed UI system** (Linear/Notion-inspired) with a custom Three.js landing page - 80-node interactive network graph + live radar chart visualizing fluency dimensions
 - 🏫 **Dual go-to-market**: B2B institutional licensing (universities, bootcamps) + B2C freemium for individual developers
 
 **Stack:** Claude Sonnet (OpenRouter) · Three.js · React · TypeScript
 
-### 💰 Flux AI — Shinhan Innoboost 2026
+### 💰 Flux AI - Shinhan Innoboost 2026
 > *AI Personal Financial Coach for Gen Z · Gaussora Intelligence · 12-week PoC*
 
 Built for Shinhan Bank's SOL app. My role: Solution Architect / AI Engineer.
 
-- 🔐 **Fully on-premise** — local Qwen inference, on-premise AnalyticDB, zero external API calls (a hard constraint from the bank's data policy)
+- 🔐 **Fully on-premise** - local Qwen inference, on-premise AnalyticDB, zero external API calls (a hard constraint from the bank's data policy)
 - 🧩 **Four engines**: Customer Classification · FAQ Handler (RAG) · Product Recommendation · Savings Nudge
 - 🎯 **Target KPIs**: ≥20% recommendation CTR · ≥70% FAQ self-service resolution · ≥85% classification accuracy · ≥5% savings-action rate
 - 📅 PoC runs Jun–Sep 2026, evaluated on 500–1,000 synthetic profiles (no real customer data)
@@ -72,7 +72,7 @@ Built for Shinhan Bank's SOL app. My role: Solution Architect / AI Engineer.
   <tr>
     <td width="50%">
       <h3>🤖 Nova AI</h3>
-      <p>Python-first AI automation platform with modular LLM pipeline design — input normalization → context assembly → model execution → structured output. Built for reliability: retry logic, timeout handling, fallback strategies, schema-validated outputs.</p>
+      <p>Python-first AI automation platform with modular LLM pipeline design - input normalization → context assembly → model execution → structured output. Built for reliability: retry logic, timeout handling, fallback strategies, schema-validated outputs.</p>
       <a href="https://github.com/KietIT/nova-ai">🔗 View Repository</a>
     </td>
     <td width="50%">
@@ -146,7 +146,7 @@ Built for Shinhan Bank's SOL app. My role: Solution Architect / AI Engineer.
 | **MVP Sprint** | 4–6 weeks | Deployed MVP with real users |
 | **Custom Enterprise Build** | 8+ weeks | Tailored AI/full-stack system, production-ready |
 
-I specialize in **AI integration for operational workflows** — assessment platforms, financial advisory systems, contract/document intelligence, and decision-support dashboards.
+I specialize in **AI integration for operational workflows** - assessment platforms, financial advisory systems, contract/document intelligence, and decision-support dashboards.
 
 🎯 Currently open to both **freelance/enterprise AI-backend projects** and **full-time Solution Architect / AI Engineer roles**.
 
@@ -154,7 +154,7 @@ I specialize in **AI integration for operational workflows** — assessment plat
 
 ## 📣 Let's Work Together
 
-Whether you need a custom AI/full-stack solution or you're hiring — I can take you from problem → architecture → production with a clear delivery roadmap.
+Whether you need a custom AI/full-stack solution or you're hiring - I can take you from problem → architecture → production with a clear delivery roadmap.
 
 📩 **Email:** trinhkiet2005@gmail.com  
 💼 **LinkedIn:** https://www.linkedin.com/in/trinh-vy-kiet-4451213ba/
